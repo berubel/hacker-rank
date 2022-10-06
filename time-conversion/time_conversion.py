@@ -14,7 +14,6 @@ import sys
 
 def timeConversion(s):
     # Write your code here
-
     res = ''
 
     # if the two last positions of the string are equal to "AM"
@@ -34,8 +33,6 @@ if __name__ == '__main__':
     #fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     s = '07:05:45PM'
-
-    timeConversion(s)
 
     result = timeConversion(s)
     print(result)
