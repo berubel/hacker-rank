@@ -17,7 +17,7 @@ def timeConversion(s):
     res = ''
 
     # if the two last positions of the string are equal to "AM"
-    if s[-2:] == "AM" :
+    if s[:-2] == "AM" :
         if s[:2] == '12': #if the two first postions are equal to "12"
             res = str('00' + s[2:8]) # sum the coverted hour to the rest of the string
         else: # for cases other than 12, just remove the two last positions
